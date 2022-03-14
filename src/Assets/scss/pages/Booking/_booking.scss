@@ -1,0 +1,77 @@
+.booking {
+  padding-top: 60px;
+
+  .booking-seat {
+    height: 640px;
+    .list-seat {
+      justify-content: center;
+    }
+    .seat {
+      background-color: #3e515d;
+      width: 4%;
+      height: 25px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+    .seat-vip {
+      background-color: #f7b500;
+    }
+    .seat-disable {
+      background-color: rgba(16, 34, 53, 0.2);
+    }
+    .seat-click {
+      background-color: #44c020;
+    }
+    .d-contents{
+      display: flex;
+      justify-content: flex-start;
+      .seat-info{
+        width: 30px;
+      }
+    }
+    
+  }
+
+  .booking-info {
+    .money {
+      color: #44c020;
+      animation: zoominoutsinglefeatured 0.5s forwards;
+      @keyframes zoominoutsinglefeatured {
+        0% {
+          transform: scale(1, 1);
+        }
+        50% {
+          transform: scale(0.9, 0.9);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+    }
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    .booking-tiket-detail {
+      height: 300px;
+      span.age {
+        background-color: #00ac4d;
+        border-radius: 5px;
+        color: white;
+      }
+      .movie-name {
+        font-weight: 600;
+      }
+      .color-ghe {
+        color: #fb4226;
+      }
+    }
+    .booking-btn-buy {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      font-size: 1.5rem;
+      width: 100%;
+    }
+  }
+}

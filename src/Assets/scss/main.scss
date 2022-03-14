@@ -1,0 +1,16 @@
+@import './helpers/variables';
+@import './base/reset';
+@import './helpers/mixin';
+@import './helpers/variables';
+
+@import './pages/Home/header';
+@import './pages/Home/carousel';
+@import './pages/Home/order';
+@import './pages/Home/products';
+@import './pages/Home/footer';
+
+@import './pages/Detail/muave.scss';
+
+@import './pages/Admin/dashboard';
+
+@import './pages/Booking/booking.scss'

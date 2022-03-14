@@ -1,0 +1,16 @@
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+    outline: none;
+}
+
+.MuiTabs-flexContainer {
+    .MuiTab-fullWidth {
+        flex-grow: 1;
+        max-width: 200px;
+        flex-basis: 0;
+        flex-shrink: 1;
+    }
+}
